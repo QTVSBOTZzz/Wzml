@@ -2,24 +2,24 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '🍂ᴀᴜᴛʜᴏʀ'
-    ST_BN1_URL = 'https://SMD_Owner'
-    ST_BN2_NAME = '🌀ᴜᴘᴅᴀᴛᴇs'
-    ST_BN2_URL = 'https://t.me/SMD_BotZ'
-    ST_MSG = '''<i>ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ ɢᴏᴏɢʟᴇ ᴅʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</i>
-<b>ᴛʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ a ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
-    ST_BOTPM = '''<i>ɴᴏᴡ, ᴛʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. sᴛᴀʀᴛ ᴜsɪɴɢ ...</i>'''
-    ST_UNAUTH = '''<i>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀ! ᴅᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ ʟᴇᴇᴄʜ ʙᴏᴛ</i>'''
-    OWN_TOKEN_GENERATE = '''<b>ᴛᴇᴍᴘᴏʀᴀʀʏ ᴛᴏᴋᴇɴ ɪs ɴᴏᴛ ʏᴏᴜʀs!</b>\n\n<i>ᴋɪɴᴅʟʏ ɢᴇɴᴇʀᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ.</i>'''
-    USED_TOKEN = '''<b>ᴛᴇᴍᴘᴏʀᴀʀʏ ᴛᴏᴋᴇɴ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ!</b>\n\n<i>ᴋɪɴᴅʟʏ ɢᴇɴᴇʀᴀᴛᴇ ᴀ ɴᴇᴡ ᴏɴᴇ.</i>'''
-    LOGGED_PASSWORD = '''<b>ʙᴏᴛ ᴀʟʀᴇᴀᴅʏ ʟᴏɢɢᴇᴅ ɪɴ ᴠɪᴀ ᴘᴀssᴡᴏʀᴅ</b>\n\n<i>ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴛᴇᴍᴘ ᴛᴏᴋᴇɴs.</i>'''
-    ACTIVATE_BUTTON ='Activate Temporary Token'
-    TOKEN_MSG = '''<b><u>ɢᴇɴᴇʀᴀᴛᴇᴅ ᴛᴇᴍᴘᴏʀᴀʀʏ ʟᴏɢɪɴ ᴛᴏᴋᴇɴ!</u></b>
-<b>ᴛᴇᴍᴘ ᴛᴏᴋᴇɴ:</b> <code>{token}</code>
-<b>ᴠᴀʟɪᴅɪᴛʏ:</b> {validity}'''
+    ST_BN1_NAME = 'Author'
+    ST_BN1_URL = 'https://t.me/SMD_Botz'
+    ST_BN2_NAME = 'Updates'
+    ST_BN2_URL = 'https://t.me/Qtvs_botz'
+    ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
+<b>Type {help_command} to get a list of available commands</b>'''
+    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
+    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
+    OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
+    USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
+    LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
+    ACTIVATE_BUTTON = 'Activate Temporary Token'
+    TOKEN_MSG = '''<b><u>Generated Temporary Login Token!</u></b>
+<b>Temp Token:</b> <code>{token}</code>
+<b>Validity:</b> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
-    ACTIVATED = '✅️ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ✅'
+    ACTIVATED = '✅️ Activated ✅'
     # ---------------------
     # async def login(_, message): --> __main__.py
     LOGGED_IN = '<b>ᴀʟʀᴇᴀᴅʏ ʙᴏᴛ ʟᴏɢɪɴ ɪɴ!</b>'
@@ -173,10 +173,10 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b>✔️ғɪʟᴇ ɴᴀᴍᴇ</b> :<code>{Name}</code>\n\n┎━━━━ « <a href="https://t.me/QTVS_BOT_X_CLOUD">𝐐𝐭𝐯𝐬 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>'
+    STATUS_NAME =       '<b>✔️ғɪʟᴇ ɴᴀᴍᴇ</b> :<code>{Name}</code>\n\n┎━━━━ « <a href="https://t.me/Qtvs_botz">𝐐𝐭𝐯𝐬 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '\n┠ </b><a href="https://t.me/SMD_BOTz">{Bar}</a>'
+    BAR =               '\n┠ </b>{Bar}</a>'
     PROCESSED =         '\n┠ <b>⚡ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
     STATUS =            '\n┠ <b>🪄sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
     ETA =               '\n┠ <b>💿ᴇᴛᴀ:</b> {Eta}'
@@ -203,7 +203,7 @@ class WZMLStyle:
     USER =              '\n┠ <b>🪪ᴜsᴇʀ:</b> <code>{User}</code>'
     ID =                '\n┠ <b>🪬ɪᴅ:</b> <code>{Id}</code>'
     BTSEL =             '\n┠ <b>💫sᴇʟᴇᴄᴛ:</b> {Btsel}'
-    CANCEL =            '\n┠ {Cancel}\n<b>┖━━━━ « <a href="https://t.me/QTVS_BOT_X_CLOUD">𝐐𝐭𝐯𝐬 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>\n\n'
+    CANCEL =            '\n┠ {Cancel}\n<b>┖━━━━ « <a href="https://t.me/Qtvs_botz">𝐐𝐭𝐯𝐬 𝐗 𝐂𝐥𝐨𝐮𝐝</a> » ━━━━༻</b>\n\n'
 
 
     ####------FOOTER-------
